@@ -1,0 +1,80 @@
+body{
+    background-color: #F5F5F4;
+}
+.container{
+    min-width: 400px;
+    max-width: 1440px;
+    width: 100%;
+}
+.favorites{
+    display: none;
+}
+
+/* IMEGEN BOLA */
+.superior__img{
+    display: none;
+}
+/* HEADER */
+.header{
+    display: flex;
+    background-color: #FEFFFE;
+    border-bottom: 1px solid #646464;
+    position: relative;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.header__h1{
+    display: none;
+}
+.nav__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: #646464;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav__link:hover{
+    color: red;
+}
+.nav__link--red{
+    color: red;
+}
+
+/* ASIDE */
+.aside{
+    display: none;
+}
+
+/* MAIN */
+.article__header, .article__image, .article__footer{
+    display: none;
+}
+.article{
+    margin: 50px 0px;
+}
+
+.article__text{
+    border: 1px solid #646464;
+    padding: 30px 0px;
+    text-align: justify;
+    color: #646464;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FOOTER */
+.footer{
+    margin: 20px 0px;
+    font-size: 0.8rem;
+    border-top: 1px solid #646464;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer__textcolor{
+    color: red;
+}
