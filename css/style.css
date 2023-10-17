@@ -1,10 +1,11 @@
 body{
-    background-color: #F5F5F4;
+    background-color: #eeeeeeee;
 }
 .container{
     min-width: 400px;
     max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "articles" "footer";
@@ -25,6 +26,7 @@ body{
     position: relative;
     position: fixed;
     top: 0px;
+    left: 0px;
     width: 100%;
     grid-area: header;
 }
@@ -61,24 +63,25 @@ body{
 }
 .articles{
     grid-area: articles;
+    margin: 20px 0px;
 }
 .article{
     margin: 50px 0px;
 }
 
 .article__text{
-    border: 1px solid #646464;
-    padding: 30px 0px;
+    padding: 30px 10px;
     text-align: justify;
     color: #646464;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
 }
 
 /* FOOTER */
 .footer{
     margin: 20px 0px;
     font-size: 0.8rem;
-    border-top: 1px solid #646464;
+    border-top: 1px solid #1a1111;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     grid-area: footer;
