@@ -154,6 +154,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        border-bottom: 1px solid #646464;
+        margin: 0px 0px 20px;
     }
     .article__data{
         display: flex;
@@ -246,7 +248,6 @@
     }
     .footer{
         grid-area: footer;
-        margin: 10px 0px;
     }
     .superior__img{
         display: flex;
@@ -323,6 +324,5 @@
     }
     .footer{
         grid-area: footer;
-        margin: 10px 0px 0px;
     }
 }
