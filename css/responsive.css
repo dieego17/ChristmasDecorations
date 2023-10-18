@@ -203,7 +203,6 @@
         align-items: center;
         flex-direction: column;
         grid-area: aside;
-        position: absolute;
         top: 0px;
         left: 0px;
         font-family: sans-serif;
@@ -229,7 +228,7 @@
         border-radius: 5px;
     }
     .card__image{
-        width: 230px;
+        width: 200px;
         box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
         border-radius: 5px;
     }
@@ -247,7 +246,7 @@
     }
     .footer{
         grid-area: footer;
-        margin: 60px 0px;
+        margin: 10px 0px;
     }
     .superior__img{
         display: flex;
@@ -255,7 +254,7 @@
         width: 60px;
         position: fixed;
         border-radius: 5px;
-        top: 40px;
+        top: 45px;
         right: 0px;
         justify-content: end;
         align-items: center;
@@ -324,6 +323,6 @@
     }
     .footer{
         grid-area: footer;
-        margin: 40px 0px;
+        margin: 10px 0px 0px;
     }
 }
